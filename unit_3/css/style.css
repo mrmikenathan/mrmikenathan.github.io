@@ -1,0 +1,33 @@
+* {
+	padding:0;
+	margin: 0;
+}
+
+body {
+  text-align: center;
+  background: #65A692 url("../images/donkeyetc1.jpg") no-repeat fixed center;
+  color: #cccccc;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+hr {
+  width: 200px;
+}
+
+h1{
+	color: #000;
+}
+
+#slogan{
+	font-weight: bold;
+	font-style: italic;
+	color: pink;
+}
+
+.info{
+	text-align: right;
+}
+ul {
+	text-align: left;
+}

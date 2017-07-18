@@ -1,14 +1,30 @@
+
+
 * {
 	padding:0;
 	margin: 0;
 }
 
 body {
-  text-align: center;
-  background: #65A692 url("../images/donkeyetc1.jpg") no-repeat fixed center;
+  background: #65A692 url("../images/donkeyetc1.jpg");
   color: #cccccc;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
+}
+
+a{
+	text-decoration:none;
+	color:#000;
+	border-bottom: 1px solid #000;
+	padding-bottom:2px;
+}
+
+nav{
+	margin:auto;
+}
+
+header{
+	padding:0 200px;
 }
 
 hr {
@@ -17,6 +33,10 @@ hr {
 
 h1{
 	color: #000;
+}
+
+h1, h2{
+	text-align: center;
 }
 
 #slogan{
@@ -30,4 +50,9 @@ h1{
 }
 ul {
 	text-align: left;
+	padding-left: 20px;
+}
+
+aside {
+	float: left;
 }

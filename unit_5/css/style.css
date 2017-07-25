@@ -26,12 +26,17 @@ a{
 }
 
 nav{
+	background-color: #E8C66A;
+	border: 1px black solid;
 	margin:20px;
 	padding: 20px;
 }
 
 header{
-	padding:10 200px;
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding:20px;
+
 }
 
 hr {
@@ -58,26 +63,30 @@ h3{
 		margin-top: 10px;
 }
 section{
-	padding:30px 0;
+	padding:20px;
+	width:30em;
+ 	margin:2em auto;
+ 	background-color: #FFE2B8;
+ 	border: 1px black solid;
 }
 
 p{
 	font-size:1em;
 	line-height: 1.5em;
 	font-family: 'Cinzel', serif;
-
 }
 
 img{
 	width:100%;
 }
 
-.eli{
- 	width:30em;
- 	margin:2em auto;
- 	background-color: #cccccc;
+aside{
+	width:20em;
+	margin:2em auto;
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
 }
-
 .navlinks{
 	color:#cccccc;
 	text-transform: uppercase;
@@ -86,6 +95,8 @@ img{
 	letter-spacing: 1px;
 }
 
-#top{
-	background: url("../images/lakes.jpg") center;
+footer{
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
 }

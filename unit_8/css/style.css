@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+
+
+* {
+	padding:0;
+	margin: 0;
+}
+
+body {
+  background: #cccccc;
+  color: #000;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+a{
+	text-decoration:none;
+	color:#000;
+	border-bottom: 1% solid #000;
+}
+
+nav{
+    display: block;
+    margin: 0;
+}
+
+header{
+	background-color: #FFED74;
+	border: 1px black solid;
+}
+
+hr {
+  width: 100%;
+  height:3%;
+	background-color: #000;
+	margin:1em auto;
+}
+
+h1{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 5em;
+	color: #000;
+	padding: 2%;
+}
+
+h2{
+	font-size: 2em;
+	margin-top: 3%;
+}
+
+h3{
+		font-family: 'Questrial', sans-serif;
+		margin-top: 1%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#two_column{
+	background-color: #FFB7CF;
+	border: 1% black solid;
+	padding: 2%;
+}
+
+#left {
+	background-color: #E582A2;
+	border: 1% black solid;
+	padding: 2%;
+	float: left;
+	width: 60%;
+}
+
+#right {
+	background-color: #E55B88;
+	border: 1% black solid;
+	padding: 2%;
+	float: right;
+	width: 28%;
+}
+
+article{
+	padding:20px;
+	width:30em;
+ 	margin:2em auto;
+ 	background-color: #FFE2B8;
+ 	border: 1% black solid;
+}
+
+p{
+	font-size:1em;
+	line-height: 1.5em;
+	font-family: 'Cinzel', serif;
+}
+
+img{
+	width:100%;
+}
+
+aside{
+	width:20em;
+	margin:2em auto;
+	background-color: #FFC675;
+	border: 1% black solid;
+	padding: 2%;
+}
+.navlinks{
+	color:#cccccc;
+	text-transform: uppercase;
+	padding:2%;
+	background-color: #000;
+	letter-spacing: 1%;
+}
+
+footer{
+	background-color: #FF957E;
+	border: 1% black solid;
+	padding: 2%;
+}
+
+@media (max-width: 1154px) {
+  	nav, a {
+    display: block;
+    text-align: center;
+    margin: 2%;
+  }
+
+  @media (max-width: 880px) {
+  	aside {
+  	display: none;
+  }
+  	#left {
+  		float: none;
+  	}
+
+    @media (max-width: 645px) {
+    	img {
+	width: 40%;
+    	}
+    	.originals img{
+    		display: none;
+    	}
+    .prints, .minis {
+    	width: 60%;
+    }
+}
